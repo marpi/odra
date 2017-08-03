@@ -1,0 +1,7 @@
+var Tools = function () {
+    
+    return {
+        
+    };
+
+}();

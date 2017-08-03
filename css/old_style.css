@@ -1,0 +1,125 @@
+body {
+    background-color: #000;
+    margin: 0;
+    color: #fff;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: Fabrik, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-size: 12px;
+    padding:0;
+    height:100%;
+    overflow:hidden;
+}
+
+* {  -webkit-backface-visibility:  hidden;
+     -webkit-tap-highlight-color:  transparent;
+}
+
+canvas {
+    background: #000000;
+    display: none;
+}
+
+#preloader{
+    z-index:200;
+    width: 100px;
+    height: 40px;
+    left:50%;
+    top:50%;
+    margin-left: -50px;
+    margin-top: -20px;
+    position:absolute;
+}
+
+#preloader_background{
+    background-color: #222222;
+    width: 100px;
+    top:20px;
+    height: 1px;
+    position:relative;
+}
+
+#progress{
+    background-color: #ffffff;
+    width: 0px;
+    height: 1px;
+}
+
+a {
+    color: #ffffff;
+}
+
+.name {
+    font-size: 2.5em;
+    position: absolute;
+    right: 50%;
+    bottom: 55px;
+}
+
+#vote {
+    padding-left: .3em;
+    font-size: 2em;
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    padding-bottom: .2em;
+    cursor:pointer;
+}
+
+#votes {
+    padding-left: .3em;
+    font-size: 1.5em;
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    pointer-events: none;
+    padding-bottom: .2em;
+    cursor:pointer;
+}
+
+#buttons {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0;
+    list-style-type: none;
+    padding: 2em;
+    line-height: 1.5em;
+}
+
+.track {
+    font-size: 1em;
+    text-decoration: none;
+    cursor:pointer;
+    height:2em;
+}
+
+.track a:hover{
+    text-decoration: underline;
+}
+
+#generate{
+    font-size: 1.5em;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    /* padding-bottom: .2em; */
+    border-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    /*width: 8em;*/
+    /* height: 20px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    background-color: rgba(0,0,0,.1);
+    cursor:pointer;
+}

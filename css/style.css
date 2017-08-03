@@ -1,0 +1,50 @@
+body {
+    background-color: #000;
+    margin: 0;
+    color: #fff;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: Fabrik, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    padding:0;
+    height:100%;
+    overflow:hidden;
+}
+
+* {  -webkit-backface-visibility:  hidden;
+     -webkit-tap-highlight-color:  transparent;
+}
+
+canvas {
+    background: #000000;
+    display: none;
+}
+
+#preloader{
+    z-index:200;
+    width: 100px;
+    height: 40px;
+    left:50%;
+    top:50%;
+    margin-left: -50px;
+    margin-top: -20px;
+    position:absolute;
+}
+
+#preloader_background{
+    background-color: #222222;
+    width: 100px;
+    top:20px;
+    height: 1px;
+    position:relative;
+}
+
+#progress{
+    background-color: #ffffff;
+    width: 0px;
+    height: 1px;
+}
+
+a {
+    color: #ffffff;
+    font-size: 12px;
+}

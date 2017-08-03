@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Fabrik';
+    src: url('fabrik-bold-webfont.eot');
+    src: url('fabrik-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fabrik-bold-webfont.woff2') format('woff2'),
+         url('fabrik-bold-webfont.woff') format('woff'),
+         url('fabrik-bold-webfont.ttf') format('truetype'),
+         url('fabrik-bold-webfont.svg#fabrikbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Fabrik';
+    src: url('fabrik-regular-webfont.eot');
+    src: url('fabrik-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fabrik-regular-webfont.woff2') format('woff2'),
+         url('fabrik-regular-webfont.woff') format('woff'),
+         url('fabrik-regular-webfont.ttf') format('truetype'),
+         url('fabrik-regular-webfont.svg#fabrikregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
