@@ -1,6 +1,6 @@
 ## Odra
 
-[![Odra](/og_image.jpg "Odra")](https://demo.marpi.pl/odra/)
+[![Odra](/og_image.jpg "Odra")](https://odra.city/)
 
 How to run
 -------
